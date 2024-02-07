@@ -1,0 +1,52 @@
+# Refresh rate
+visualizer.fps=20
+
+#Defaults to "/tmp/mpd.fifo"
+mpd.fifo.path
+
+audio.stereo.enabled=false
+
+visualizer.rotation.secs=10
+
+#Configures the samples rate and the cutoff frequencies.
+audio.sampling.frequency=44100
+audio.low.cutoff.frequency=30
+audio.high.cutoff.frequency=22050
+
+#visualizer.scaling.multiplier=1.0
+
+visualizers=spectrum
+# visualizers=ellipse
+# visualizers=lorenz
+
+visualizer.spectrum.character=█
+
+visualizer.spectrum.bar.width=1
+
+visualizer.spectrum.bar.spacing=0.9
+
+visualizer.spectrum.smoothing.mode=monstercat
+
+visualizer.spectrum.falloff.mode=fill
+
+visualizer.spectrum.falloff.weight=5
+
+visualizer.spectrum.top.margin=0.0
+visualizer.spectrum.bottom.margin=0.0
+visualizer.spectrum.right.margin=0.0
+visualizer.spectrum.left.margin=0.0
+
+visualizer.spectrum.reversed=false
+
+visualizer.sgs.smoothing.points=3
+visualizer.sgs.smoothing.passes=2
+
+visualizer.ellipse.character=█
+
+visualizer.ellipse.radius=10
+
+visualizer.lorenz.character=#
+
+colors.override.terminal=false
+
+colors.scheme=rose-pine
